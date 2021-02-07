@@ -1,45 +1,11 @@
-# React Month Picker
+Your solo project is going to require you to accomplish something you've never done before. There is some part about it (complicated SQL queries, an API you haven't worked with before, payments, image upload, task scheduling, sending email/text messages, etc) that is probably a little intimidating.
 
-Before you get started make sure to look through the code that has been provided. Server side code to retrieve data (`GET`) has been provided for you. For this code challenge, you should only modify or add files in the `src` folder.
+    Check out this list of Common Solo Project Technologies in React, for some ideas of what previous students have used to tackle some of these problems.
 
-### Setup
+    Submit in the portal a brief description of what you plan to spike before you leave. (You dont have to have the repo made yet)
 
-Start the server.
+    Create a spike (very small example) that will serve as a "Proof of Concept" for this really hard part of your project.
 
-```
-npm install
-npm run server
-```
+    Note: DO NOT use the solo project starter repo! You want to keep this as simple as possible to focus on the new part.
 
-Now that the server is running, open a new terminal tab with `cmd + t` and start the react client app.
-
-```
-npm run client
-```
-
-## BASE MODE
-
-This app will display a list of months on the page. When a month is clicked, it will show an alert of the month name to the user.
-
-### Details
-
-- Use `axios` to retrieve (`GET`) data from `/calendar` and store it in `App.js`. `/calendar` returns an array of calendar month names and ids.
-- Create a new component called `MonthItem`. `MonthItem` should be the Month to display.
-- Create a new component for the list of months called `MonthList`. `MonthList` should be handling the making of each `MonthItem` (creating a `MonthItem` for each month).
-- When a month is clicked, it should alert the month name to the user.
-
-
-### Base Mode Mockup
-
-![Base Mode Mockup](wireframes/base-solution.gif)
-
----
-
-## STRETCH FEATURE
-
-- Move the header into it's own component, `Header`, as a child of App. `Header` should display the month that was just clicked. Keep the data in App.js. You will have to get the data from the `MonthItem` "up" to `App` and then into `Header`.
-
-### Stretch Mode Mockup
-
-![Stretch Mode Mockup](wireframes/stretch-solution.gif)
-# spike_showcase
+    Submit the GitHub link to your repo in the portal.

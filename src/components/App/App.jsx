@@ -4,6 +4,7 @@ import './App.css';
 
 import MonthList from '../MonthList/MonthList.jsx';
 import Header from '../Header/Header.jsx'
+import Chart from '../Chart/Chart.jsx'
 
 function App() {
 
@@ -24,13 +25,15 @@ function App() {
 
   return (
     <div className="App">
-      <Header
+      <h1>Amount I want t-bell as the week goes on</h1>
+      <Chart />
+      {/* <Header
         clicked={clicked}
       />
       <MonthList
         monthItems={monthItems}
         setClicked={setClicked}
-      />
+      /> */}
     </div>
   );
 }
